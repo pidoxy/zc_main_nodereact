@@ -1,5 +1,4 @@
 import React from 'react';
-import useSWR from 'swr';
 import { URLContext } from '../App';
 import ArrowDown from '../assets/shapekeyboardarrowdown2.svg'
 import NewMessage from '../assets/newmessage.svg'
@@ -36,7 +35,6 @@ export const Sidebar = () => {
       description: ''
     }
   ];
-  
   
   const messages = [
     {

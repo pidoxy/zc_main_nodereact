@@ -1,4 +1,3 @@
-// import Head from 'next/head';
 
 import { PluginContent } from './components/PluginContent';
 import { Sidebar } from './components/Sidebar';
@@ -14,10 +13,6 @@ export default function App() {
   return (
     <div className={styles.container}>
       <URLContext.Provider value={{ setUrl, url }}>
-        {/* <Head>
-          <title>Zuri Chat</title>
-          <link rel="icon" href="/zurichatlogo.svg" />
-        </Head> */}
         <Sidebar />
         <div className={styles.room}>
           <Topbar />
